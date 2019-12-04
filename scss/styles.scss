@@ -86,8 +86,10 @@ button:focus {
   ul {
     margin-top: 1em;
     list-style-type: none;
+    text-align: center;
   }
   li {
+    padding: 0.25em;
     display: inline;
     vertical-align: middle;
     a {
@@ -95,11 +97,11 @@ button:focus {
       text-transform: uppercase;
       text-decoration: none;
       font-weight: 900;
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
-  }
-  img {
-    width: 30px;
+    img {
+      width: 25px;
+    }
   }
 }
 
