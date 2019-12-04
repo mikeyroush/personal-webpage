@@ -7,6 +7,55 @@
   padding: 0;
 }
 
+body {
+  background: linear-gradient(
+      157.5deg,
+      rgba(197, 45, 183, 0.2) 0%,
+      rgba(197, 45, 183, 0.2) 16.667%,
+      rgba(49, 20, 191, 0.2) 16.667%,
+      rgba(49, 20, 191, 0.2) 33.334%,
+      rgba(160, 39, 185, 0.2) 33.334%,
+      rgba(160, 39, 185, 0.2) 50.001%,
+      rgba(123, 32, 187, 0.2) 50.001%,
+      rgba(123, 32, 187, 0.2) 66.668%,
+      rgba(234, 51, 181, 0.2) 66.668%,
+      rgba(234, 51, 181, 0.2) 83.335%,
+      rgba(86, 26, 189, 0.2) 83.335%,
+      rgba(86, 26, 189, 0.2) 100.002%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(197, 45, 183, 0.2) 0%,
+      rgba(197, 45, 183, 0.2) 16.667%,
+      rgba(49, 20, 191, 0.2) 16.667%,
+      rgba(49, 20, 191, 0.2) 33.334%,
+      rgba(160, 39, 185, 0.2) 33.334%,
+      rgba(160, 39, 185, 0.2) 50.001%,
+      rgba(123, 32, 187, 0.2) 50.001%,
+      rgba(123, 32, 187, 0.2) 66.668%,
+      rgba(234, 51, 181, 0.2) 66.668%,
+      rgba(234, 51, 181, 0.2) 83.335%,
+      rgba(86, 26, 189, 0.2) 83.335%,
+      rgba(86, 26, 189, 0.2) 100.002%
+    ),
+    linear-gradient(
+      112.5deg,
+      rgba(197, 45, 183, 0.2) 0%,
+      rgba(197, 45, 183, 0.2) 16.667%,
+      rgba(49, 20, 191, 0.2) 16.667%,
+      rgba(49, 20, 191, 0.2) 33.334%,
+      rgba(160, 39, 185, 0.2) 33.334%,
+      rgba(160, 39, 185, 0.2) 50.001%,
+      rgba(123, 32, 187, 0.2) 50.001%,
+      rgba(123, 32, 187, 0.2) 66.668%,
+      rgba(234, 51, 181, 0.2) 66.668%,
+      rgba(234, 51, 181, 0.2) 83.335%,
+      rgba(86, 26, 189, 0.2) 83.335%,
+      rgba(86, 26, 189, 0.2) 100.002%
+    ),
+    linear-gradient(90deg, rgb(29, 6, 130), rgb(251, 111, 62));
+}
+
 .wrapper {
   font-family: basic-sans, sans-serif;
   min-height: 100vh;
@@ -15,7 +64,7 @@
   align-items: center;
   font-size: 1.125 em;
   line-height: 1.6;
-  background: $neutral;
+  //background: $neutral;
   position: relative;
   overflow-x: hidden;
 }
@@ -34,6 +83,24 @@ button:focus {
   padding: 3em;
   box-shadow: 0 0 3em rgba($color: #000000, $alpha: 0.15);
   border-radius: 0.5em;
+  ul {
+    margin-top: 1em;
+    list-style-type: none;
+  }
+  li {
+    display: inline;
+    vertical-align: middle;
+    a {
+      color: $dark;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 1.2em;
+    }
+  }
+  img {
+    width: 30px;
+  }
 }
 
 .title {
