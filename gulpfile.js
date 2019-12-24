@@ -8,7 +8,7 @@ const browzerSync = require("browser-sync").create();
 // compile scss into css
 function style() {
   return gulp
-    .src("./scss/**/*.scss")
+    .src("./scss/**/styles.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(autoprefixer("last 2 versions"))
     .pipe(cleanCSS())
