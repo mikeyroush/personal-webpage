@@ -35,7 +35,7 @@ html {
 
 .nav {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   top: 0;
   text-transform: uppercase;
@@ -142,6 +142,9 @@ html {
       background: $light;
     }
   }
+  .active {
+    background: $light;
+  }
   #r1:checked ~ .i1 {
     margin-left: 0;
   }
@@ -220,6 +223,10 @@ html {
   line-height: 0.8;
 }
 
+#portfolio {
+  margin-bottom: 30px;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax($cardWidth, 1fr));
@@ -247,7 +254,7 @@ html {
   }
 }
 
-@media screen and (max-width: $breakMed) {
+@media screen and (max-width: $breakMed), screen and (max-height: $breakSmall) {
   .pane {
     width: 90vw;
     padding: 1.5em;
