@@ -19,11 +19,11 @@ if (navToggle)
 	});
 
 //show description for cards
-cards.forEach((card) => {
-	card.addEventListener('click', () => {
-		card.classList.toggle('card-show');
-	});
-});
+// cards.forEach((card) => {
+// 	card.addEventListener('click', () => {
+// 		card.classList.toggle('card-show');
+// 	});
+// });
 
 //toggle navbar background
 const headerObserverOptions = {
