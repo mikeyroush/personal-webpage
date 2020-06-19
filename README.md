@@ -1,6 +1,6 @@
 # personal-webpage
 
-This project implements a culmination of my HTML, CSS, and JavaScript knowledge to make a personal portfolio. It can be seen at [Roush, Michael: About Me](http://people.tamu.edu/~mikey_roush/index.html)
+This project implements a culmination of my HTML, CSS, and JavaScript knowledge to make a personal portfolio. It can be seen at [Roush, Michael: About Me](https://mikeyroush.github.io)
 
 ## Getting Started
 
